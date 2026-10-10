@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor / tooling
+.vscode/
+.idea/
+*.swp
+
+# Vercel
+.vercel/
+
+# Logs
+*.log

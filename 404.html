@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 — Not Found · Md. Saifullah</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="stylesheet" href="./styles.css" />
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("theme") ||
+          (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+        document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <main class="wrap" style="min-height: 70vh; display: grid; place-content: center; text-align: left;">
+    <div class="terminal" style="max-width: 460px;">
+      <div class="term-bar" aria-hidden="true">
+        <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+        <span class="term-title">zsh — error</span>
+      </div>
+      <pre class="term-body"><span class="t-prompt">saifullah@dhaka</span><span class="t-sep">:</span><span class="t-path">~</span><span class="t-sep">$</span> open page
+<span class="t-out">zsh: 404 — no such file or directory</span>
+<span class="t-prompt">saifullah@dhaka</span><span class="t-sep">:</span><span class="t-path">~</span><span class="t-sep">$</span> cd <a href="./">~</a></pre>
+    </div>
+  </main>
+</body>
+</html>
